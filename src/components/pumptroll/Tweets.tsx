@@ -9,40 +9,60 @@ const XIcon = () => (
 
 const tweets = [
   {
-    name: "Crypto Owl",
-    handle: "@cryptoowl",
-    time: "2h",
-    text: "$PUMP holders eating GOOD tonight. Chart looks like a staircase to Valhalla. 🟢🟣",
-    likes: "1.2K",
-    rts: "284",
-    replies: "94",
+    name: "Pump Troll",
+    handle: "@Pump_Troll",
+    time: "Jun 14",
+    text: `Huge Shout-out to everyone who Showed up today ! 
+The Swamp Saw you, The Swamp appreciates you. 
+Rest up Friends 💚🧌 
+
+#cryptolife #Solana`,
+    likes: "15",
+    rts: "1",
+    replies: "6",
   },
   {
-    name: "Degen Diary",
-    handle: "@degendiary",
-    time: "5h",
-    text: "Community of PumpTroll might be the most unhinged on Solana right now. And I mean that as a compliment.",
-    likes: "3.4K",
-    rts: "612",
-    replies: "210",
+    name: "Pump Troll",
+    handle: "@Pump_Troll",
+    time: "Jun 11",
+    text: `They're Stressing, selling at loss and getting frustrated . 
+PumpTroll remains calm eating Popcorn, the Swamp saw it coming🧌. 
+Stay Ahead, Stay unbothered 💚 
+
+#CryptoAlpha #solan`,
+    likes: "15",
+    rts: "0",
+    replies: "7",
   },
   {
-    name: "Neon Trader",
-    handle: "@neontrader",
-    time: "1d",
-    text: "Bought $PUMP. Slept. Woke up. Still bullish. Some things just write themselves.",
-    likes: "892",
-    rts: "143",
-    replies: "57",
+    name: "Pump Troll",
+    handle: "@Pump_Troll",
+    time: "Jun 1",
+    text: `🔥 PUMP TROLL COMPETITION IS LIVE 🔥
+
+The swamp is open… and we’re giving away 1 SOL total to the best trolls in the community.
+
+🏆 Winner 1: Most Engagement Points
+🏆 Winner 2: Best Meme by TODDY
+
+Make the swamp proud! 🧌🔥`,
+    likes: "57",
+    rts: "12",
+    replies: "20",
   },
   {
-    name: "Meme Mage",
-    handle: "@mememage",
-    time: "1d",
-    text: "PumpTroll mascot is the best art a meme coin has had since 2021. Fight me.",
-    likes: "2.1K",
-    rts: "318",
-    replies: "128",
+    name: "Pump Troll",
+    handle: "@Pump_Troll",
+    time: "May 23",
+    text: `Noise gets filtered.
+Builders enter.
+The swamp is building. 
+Token launch soon 🧌🟢
+
+#PumpTroll #PumpSquad`,
+    likes: "12",
+    rts: "1",
+    replies: "4",
   },
 ];
 
@@ -83,7 +103,7 @@ export function Tweets() {
                   <XIcon />
                 </span>
               </header>
-              <p className="mt-3 text-[15px] leading-relaxed text-foreground/90">{t.text}</p>
+              <p className="mt-3 whitespace-pre-wrap text-[15px] leading-relaxed text-foreground/90">{t.text}</p>
               <footer className="mt-4 flex items-center gap-6 text-sm text-foreground/55">
                 <span className="flex items-center gap-1.5 hover:text-primary transition">
                   <MessageCircle size={15} /> {t.replies}
