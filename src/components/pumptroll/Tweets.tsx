@@ -19,7 +19,7 @@ Rest up Friends 💚🧌
 #cryptolife #Solana`,
     likes: "15",
     rts: "1",
-    replies: "6",
+    replies: "7",
   },
   {
     name: "Pump Troll",
